@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: logo;
+    src: url(/assets/fonts/Exo2-VariableFont_wght.ttf);
+    font-family: titulo;
+    src: url(/assets/fonts/Barlow-Medium.ttf);
+}
+
+@theme {
+    --color-fundo: #121212;
+    --color-CinzaEscuro: #272727;
+    --color-detalhesCinza: #cfcccc;
+    --color-CinzaClaro: #ededed;
+    --color-Roxo: #aa65eb;
+    --font-logo: logo, "san-serif";
+    --font-titulo: titulo, "san-serif"
+}
