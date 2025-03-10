@@ -1,4 +1,43 @@
 .nome-Sobrenome {
     width: 100%;
     height: 100%;
+    border: 2px solid #272727;
+    background-color: none;
+    color: #ededed;
+    padding: 8px;
+    transition: 0.5s;
+}
+
+.nome-Sobrenome:focus {
+    outline: none;
+}
+
+.nome-Sobrenome:hover {
+    border: 2px solid #363636;
+}
+
+.nome-Sobrenome::placeholder {
+    color: #ededed;
+}
+
+.caixa-texto {
+    width: 100%;
+    height: 2.5rem;
+    border: 2px solid #272727;
+    background-color: none;
+    color: #ededed;
+    padding: 0.5rem;
+    transition: 0.5s;
+}
+
+.caixa-texto:hover {
+    border: 2px solid #363636;
+}
+
+.caixa-texto:focus {
+    outline: none;
+}
+
+.caixa-texto::placeholder {
+    color: #ededed;
 }
